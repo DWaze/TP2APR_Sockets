@@ -63,8 +63,8 @@ public class RecepteurProcess {
                 DatagramPacket reply =null;
 
 
-                ///////// checking if the if the number of packet that we attempt to receive
-                // ////// is the same as the number of the packet that we have got
+                ///////// checking if the the serial number of the packet that we attempt to receive
+                // ////// is the same as the serial number of the packet that we have got
 
 
 

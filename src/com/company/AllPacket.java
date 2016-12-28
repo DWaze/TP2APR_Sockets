@@ -7,9 +7,11 @@ import java.io.Serializable;
  */
 public class AllPacket implements Serializable {
 
-    int sequence ;
-    long crc;
-    String message;
+    ////// the class of the packet that contain all the necessary information that we need to send
+
+    int sequence ;   ////// the serial number of the packet
+    long crc;        ////// the crc code that is used for checking is the packet is correct
+    String message;  ////// the content of the message
 
     public AllPacket(long crc, String message,int sequence) {
         this.sequence=sequence;
